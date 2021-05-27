@@ -1,3 +1,5 @@
+![vuegrass-bar gif](https://github.com/frknbasaran/vuegress-bar/blob/master/docs/vuegress-bar.gif?raw=true)
+
 # vuegress-bar
 
 > Lightweight progress-bar component for Vue.
