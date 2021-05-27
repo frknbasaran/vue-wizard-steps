@@ -20,25 +20,24 @@
 
 ### Step 3: Use component in view
 
-
-	<template>
-		<vuegress-bar :sections="sections" :bgColor="bgColor" :fillColor="fillColor" />
-	</template>
-
-	<script>
-	export default {
-		data() {
-			return {
-				sections: {
-					titles:  ['summary',  'shipping',  'payment',  'checkout'],
-					fillCount: 2
-				},
-				bgColor: '#E4F5B8',
-				fillColor: '#1F01B9'
-			};
-		}
-	}
-	</script>
+    <template>
+    	<vuegress-bar :sections="sections" :bgColor="bgColor" :fillColor="fillColor" />
+    </template>
+    
+    <script>
+    export default {
+    data() {
+    	return {
+    		sections: {
+    			titles:  ['summary',  'shipping',  'payment',  'checkout'],
+    			fillCount: 2
+    		},
+    		bgColor: '#E4F5B8',
+    		fillColor: '#1F01B9'
+    	};
+    }
+    }
+    </script>
 
 That's all.
 
