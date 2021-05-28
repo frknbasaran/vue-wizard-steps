@@ -2,7 +2,7 @@
 
 # vuegress-bar
 
-> Lightweight progress-bar component for Vue.
+> Lightweight and customizable progress bar component for Vue.
 
 ### Step 1: Installation
 
