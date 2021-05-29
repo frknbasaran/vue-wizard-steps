@@ -11,10 +11,10 @@
 ### Step 2: Add to project
 
     import  Vue  from  'vue';
-    import  VuegressBar  from  'vuegress-bar';
+    import  WizardSteps  from  'vue-wizard-steps';
     import  App  from  './App.vue';
     
-    Vue.component("vuegress-bar", VuegressBar);
+    Vue.component("wizard-steps", WizardSteps);
     
     new  Vue({
 	    render: h => h(App),
@@ -23,7 +23,7 @@
 ### Step 3: Use component in view
 
     <template>
-    	<vuegress-bar :sections="sections" :bgColor="bgColor" :fillColor="fillColor" />
+    	<wizard-steps :sections="sections" :bgColor="bgColor" :fillColor="fillColor" />
     </template>
     
     <script>
