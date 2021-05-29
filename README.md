@@ -1,10 +1,12 @@
-# vuegress-bar
+![vuegrass-bar gif](https://github.com/frknbasaran/vuegress-bar/blob/master/docs/vuegress-bar.gif?raw=true)
 
-> Lightweight progress-bar component for Vue.
+# vue-wizard-steps
+
+> Lightweight and customizable step-by-step progress/wizard component for Vue.
 
 ### Step 1: Installation
 
-    yarn add vuegress-bar
+    yarn add vue-wizard-steps
 
 ### Step 2: Add to project
 
